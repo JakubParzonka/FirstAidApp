@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Call">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/call_11_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pogotowie_ratunkowe"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/call_12_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/call_1_image"
+            android:layout_toStartOf="@+id/call_1_image"
+            android:text="@string/_999"
+            android:textSize="25sp" />
+
+
+        <ImageView
+            android:id="@+id/call_1_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="pogotowieRatunkoweCallButton"
+            android:src="@android:drawable/ic_menu_call" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/call_21_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/stra_po_arna"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/call_22_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/call_2_image"
+            android:layout_toStartOf="@+id/call_2_image"
+            android:text="@string/_998"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/call_2_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="strazPozarnaCallButton"
+            android:src="@android:drawable/ic_menu_call" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/call_31_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/policja"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/call_32_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/call_3_image"
+            android:layout_toStartOf="@+id/call_3_image"
+            android:text="@string/_997"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/call_3_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="policjaCallButton"
+            android:src="@android:drawable/ic_menu_call" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/call_41_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/po_czenie_ratunkowe"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/call_42_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/call_4_image"
+            android:layout_toStartOf="@+id/call_4_image"
+            android:text="@string/_112"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/call_4_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="polaczenieRatunkoweCallButton"
+            android:src="@android:drawable/ic_menu_call" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

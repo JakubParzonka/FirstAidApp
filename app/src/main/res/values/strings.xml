@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">FirstAidApp</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+
+    <string name="b0">Wybierz kategorię:</string>
+    <string name="b1">Wezwanie\npogotowia</string>
+    <string name="b2">Pozycja\nbezpieczna</string>
+    <string name="b3">Łańcuch\nprzeżycia</string>
+    <string name="b4">BLS</string>
+    <string name="b5">Omdlenie</string>
+    <string name="b6">Krwotok\nz nosa</string>
+    <string name="b7">Użądlenie</string>
+    <string name="b8">Ciało obce</string>
+    <string name="b9">Zlokalizuj medyka</string>
+    <string name="b10">Ważne numery</string>
+
+
+    <string name="title1">Wezwanie pogotowia</string>
+    <string name="title2">Pozycja bezpieczna</string>
+    <string name="title3">Łańcuch przeżycia</string>
+    <string name="title4">BLS</string>
+    <string name="title5">Omdlenie</string>
+    <string name="title6">Krwotok z nosa</string>
+    <string name="title7">Użądlenie</string>
+    <string name="title8">Ciało obce</string>
+
+
+    <string name="des1">Co powinno zawierać zgłoszenie, gdy wzywamy pogotowie:\n\n1. Dokładny adres z nazwa miejscowości.\nADRES podajemy na pierwszym miejscu dlatego, że nigdy nie wiemy czy nie zdarzy się coś co przerwie nam połączenie z dyspozytorem np. rozładuje nam się bateria w telefonie, telefon ulegnie uszkodzeniu lub np. nie stracimy przytomności. Powodów może być mnóstwo. Zwróć uwagę również na to aby podając adres podać nazwę miejscowości. O życiu i śmierci decydują minuty, a nawet sekundy!\n2. Co się stało?\nW krótki i rzeczowy sposób powiedz co się stało np. wypadek samochodowy, upadek z wysokości itp. \n3. Ilość osób poszkodowanych.Od tej informacji zależny ile przyjedzie zespołów ratowniczych. Przyjmuje się ze jeden zespól pogotowia ratunkowego zajmuje się jednym pacjentem. Przy zdarzeniach z kilkorgiem poszkodowanych wysyłanych kilka karetek naraz i wszyscy otrzymują od razu pomoc. \n4. Stan poszkodowanego.\nInformacja o stanie poszkodowanego może się okazać bardzo istotna. Dyspozytor wie jak wyposażona karetkę ma wysłać. Np. przy zatrzymaniu krążenia wysyła się tzw S (karetkę specjalistyczną) do wypadków komunikacyjnych wysyła się karetkę podstawową "P". Taka informacja przydaje się również przy decyzji jaki zespól ma przyjechać czy sami ratownicy czy zespól z lekarzem. \n5. Nazwisko i telefon.Koniecznie podaj swoje nazwisko i nr telefonu. Nieraz karetka ma problem z dojazdem np. nie można odnaleźć adresu lub potrzebne są dodatkowe informacje. Odmowa podania tych danych może zostać zinterpretowana przez dyspozytora ze nasz telefon to głupi żart. \n\n!!!!Nigdy nie odkładaj pierwszy telefonu. Dyspozytor może mieć dodatkowe pytania. !!!!</string>
+    <string name="des2">Pozycja boczna powinna być stabilna, jak najbliższa ułożeniu na boku z odgięciem głowy i brakiem ucisku na klatkę piersiowa, by nie utrudniać oddechu.\nAby ułożyć poszkodowanego w pozycji bocznej ustalonej należy wykonać następujące czynności:\n1. Jeśli poszkodowany nosi okulary - należy je zdjąć,\n2. Uklęknij przy poszkodowanym i upewnij się, że poszkodowany leży na plecach i obie nogi są wyprostowane,\n3. Rękę poszkodowanego bliższą Tobie ułóż pod katem prostym w stosunku do ciała, a następnie zegnij w łokciu pod katem prostym tak, aby dłoń reki była skierowana do góry,\n4. Swoja ręka złap za dalsza kończynę dolna na wysokości kolana i zegnij nogę w kolanie, nie odrywając stopy poszkodowanego od podłoża,\n5. Złap rękę dalszą poszkodowanego w taki sposób, aby palce dłoni poszkodowanego przeplatały się z palcami dłoni ratownika.\n6.  Rękę dalszą poszkodowanego przełóż w poprzek klatki piersiowej i przytrzymaj strona grzbietowa przy bliższym tobie policzku,\n7. Przytrzymując dłoń dociśniętą do policzka, pociągnij za dalsza kończynę dolna tak, aby poszkodowany obrócił się na bok w twoim kierunku,\n8.  Odchyl głowę do tyłu, aby poprawić drożność dróg oddechowych i ułatwić oddychanie poszkodowanemu.\n9. Oceń oddech oraz monitoruj stan poszkodowanego.</string>
+    <string name="des3">Jest to umowne określenie stosowane w medycynie ratunkowej odnoszące się do działań mających na celu zwiększenie przeżywalności u osób po nagłym zatrzymaniu krążenia. Skuteczność tych interwencji zależy od wytrzymałości najsłabszego ogniwa łańcucha.\nNa łańcuch przeżycia składają się:\n1.Wczesne rozpoznanie osoby/osób będących w stanie zagrożenia życia i wezwanie służb ratowniczych.\n2.Wczesne rozpoczęcie resuscytacji krążeniowo-oddechowej.\n3.Wczesna defibrylacja (jeśli zachodzi taka potrzeba).\n4.Szybkie wdrożenie zaawansowanych zabiegów resuscytacyjnych i odpowiednia opieka poresuscytacyjna.</string>
+    <string name="des4">Podstawowe zabiegi resuscytacyjne (BLS – Basic Life Support) mają kluczowe znaczenie w ratowaniu życia osobom poszkodowanym z nagłym zatrzymaniem krążenia. Warto rozpoczynać BLS bez obaw przed brakiem doświadczenia, ponieważ udowodniono, że czynności te znacznie zmniejszają prawdopodobieństwo zgonu.Algorytm BLS należy powtarzać w formie cyklicznej, wykonując pojedyncze czynności w poniższej sekwencji, przerywając jedynie w wypadku rozpoczęcia spontanicznego oddychania przez pacjenta:\n1. Oceń swoje bezpieczeństwo\n2. Sprawdź, czy poszkodowany reaguje\n3. Głośno wołaj o pomoc\n4. Udrożnij drogi oddechowe i sprawdź oddech – lekko odchyl głowę do tyłu i unieś żuchwę\n5. Sprawdź, czy oddycha prawidłowo\n6. Zadzwoń pod numer 112 lub 999\n7. Wykonaj 30 uciśnięć klatki piersiowej\n8. Wykonaj 2 oddechy\n9. Kontynuuj resuscytację aż do przyjazdu pogotowia.</string>
+    <string name="des5">W pierwszej kolejności należny skontrolować czynności życiowe: przytomność i oddech.\n1. Jeśli brak oddechu - wezwać pomoc (tel. 112) i rozpocznij resuscytację krążeniowo-oddechową.\n2. Jeśli oddech jest zachowany, osobę nieprzytomną należy ułożyć w pozycji bocznej bezpiecznej. \n\nAktualnie nie jest zalecane unoszenie kończyn jako postępowanie uniwersalne z uwagi na możliwość przyczyny kardiologicznej bądź neurologicznej. Ponadto, definicja wskazuje, że z omdleniem mamy do czynienia jeśli nieprzytomność ustępuje samoistnie. \n\n3.Jeśli jest to możliwe, należy zapewnić dostęp świeżego powietrza oraz ułatwić oddychanie przez np. rozpięcie kołnierzyka, krawatu, itp. Osoby, które odzyskały przytomność nie powinny szybko zmieniać pozycji. Pionizacja powinna przebiegać w powolnych etapach przy asekuracji osób udzielających pomocy.</string>
+    <string name="des6">Prawidłowe postępowanie z krwotokiem z nosa:\n\n1. Zadbaj o własne bezpieczeństwo - załóż rękawiczki\n2. Osobę z krwotokiem z nosa posadź z głową lekko pochylona do przodu. Nie odchylaj głowy do tylu ponieważ powoduje to spływanie krwi do tchawicy lub gardła może to spowodować np. zakrztuszenie lub błędna interpretacje wyników przez lekarzy przy dalszym badaniu. Poza tym przy nisko ułożonej głowie krwawienie się nasila.\n3. Daj poszkodowanemu gazik lub chusteczkę, która ma przyłożyć sobie do nosa.\n4. Poinformować poszkodowanego aby oddychał ustami.\n4. Połóż na karku zimy okład. Zimno spowoduje obkurczenie się naczyń krwionośnych i zmniejszy się krwotok. Zimny okład możesz zrobić z nasączonego zimna woda ręcznik lub owinięte w ściereczkę kostki lodu. Możesz też mieć lepiej wyposażoną apteczkę i posiadać np. chłodzące pakiety żelowe lub chemiczne pakiety chłodzące. </string>
+    <string name="des7">Objawy po Uużądleniu Owada.\n- zmiany zabarwienia skóry, zasinienie;\n- obrzek;\n- ból;\n- zaburzenia w oddychaniu, polykaniu;\n- wstrząs anafilaktyczny;\nJak Udzielić Pierwszej Pomocy po Użądleniu Owada.\nUstal czy poszkodowany jest alergikiem, czy jest uczulony na użądlenia owadów np. pszczół, os, szerszeni itp. Jeśli poszkodowany jest uczulony to użądlenie może być zagrożeniem dla zdrowia i życia. Zagrożeniem życia może być użądlenie w szyje, język, podniebienie, krtań, wewnętrzna powierzchnie policzka.\nJeśli poszkodowany NIE jest uczulony\n1. Wyciągnij żądło szczypczykami lub peseta. Staraj się nie uciskać żądła.\n2. Zdejmij biżuterie, później może okazać się to nie możliwe.\n3. Zdezynfekuj ranę.\n4. Posmaruj miejsce użądlenia np. Fenistil żel. Podaj do picia rozpuszczone w 1/2 szklanki wody 2 tabletki Calcium (wapna medycznego). Zmniejszy to uczucie swędzenia, bólu, złagodzi objawy.\n5. W przypadku dużego obrzęku zastosuj zimne okłady lub okłady np. z Altacetu.\n6. Poszkodowanego należy obserwować przez co najmniej godzinę i w przypadku pogorszenia stanu skonsultować się z lekarzem.\n\nJeśli poszkodowany JEST uczulony.\n1. Zadzwoń na pogotowie ratunkowe 999 lub 112. Ta czynność może wykonać osoba która poprosisz o pomoc.\n2. Wyciągnij żądło szczypczykami lub peseta. Staraj się nie uciskać żądlą.\n3. Jeśli poszkodowany ma przy sobie leki, które musi zażyć w przypadku użądlenia owada - pomóż mu je zażyć.\n4. Zdejmij biżuterie, później może okazać się to nie możliwe.\n5. Zdezynfekuj ranę.\n6. Posmaruj miejsce użądlenia np. Fenistil żel. Podaj do picia rozpuszczone w 1/2 szklanki wody 2 tabletki Calcium (wapna medycznego). Zmniejszy to uczucie swędzenia, bólu, złagodzi objawy.\n7. Daj poszkodowanemu kostkę lodu do ssania zmniejszy to obrzęk dróg oddechowych - oczywiście tylko wtedy kiedy poszkodowany jest świadomy i przytomny.\n8. Obserwuj poszkodowanego kontroluj czynności życiowe w razie konieczności rozpocznij reanimacje.\n9. Czekaj na przybycie pogotowia ratunkowego.</string>
+    <string name="des8">Jak udzielić pierwszej pomocy osobie z ciałem obcym.\n\n1. Nie wyciągaj ciała obcego.\n2. Wezwij pogotowie ratunkowe!!!\n3. Zadbaj o własne bezpieczeństwo załóż rękawiczki\n4. W oczekiwaniu na pogotowie zabezpiecz przedmiot, aby nie wypad z rany. Pozostający przedmiot w ranie jest takim "korkiem", który ogranicza krwawienie.\n5. Aby zabezpieczyć przedmiot należy wziąć dwa zwykle bandaże zbliżonych rozmiarów wyciągnąć z opakowania i bez rozwijania przyłożyć po obu stronach przedmiotu i za pomocą plastrów lub bandaża przymocować do skóry tak aby przedmiot się nie poruszał i nie wypad.\n6. Pozostań z poszkodowanym i nie pozwól mu się ruszać.\n7. Czekaj na ekipę pogotowia.\nW przypadku gdy przedmiot wypadnie z rany nie wkładaj go z powrotem.</string>
+
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="localizate_it">Zlokalizuj!</string>
+    <string name="przychodnia">Przychodnia</string>
+    <string name="wprowad_miasto">Wprowadź miasto</string>
+    <string name="szpital">Szpital</string>
+    <string name="lekarz">Lekarz</string>
+    <string name="apteka">Apteka</string>
+    <string name="pogotowie_ratunkowe">Pogotowie Ratunkowe</string>
+    <string name="_999">999</string>
+    <string name="stra_po_arna">Straż Pożarna</string>
+    <string name="_998">998</string>
+    <string name="policja">Policja</string>
+    <string name="_997">997</string>
+    <string name="_112">112</string>
+    <string name="po_czenie_ratunkowe">Połączenie Ratunkowe</string>
+
+
+</resources>

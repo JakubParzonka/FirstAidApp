@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/city_edit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:hint="@string/wprowad_miasto" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/przychodnia_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="16dp"
+            android:buttonTint="#780f94"
+            android:paddingLeft="15dp"
+            android:text="@string/przychodnia"
+            android:textSize="17sp" />
+
+
+        <RadioButton
+            android:id="@+id/szpital_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="16dp"
+            android:buttonTint="#780f94"
+            android:paddingLeft="15dp"
+            android:text="@string/szpital"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/lekarz_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="16dp"
+            android:buttonTint="#780f94"
+            android:paddingLeft="15dp"
+            android:text="@string/lekarz"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/apteka_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="16dp"
+            android:buttonTint="#780f94"
+            android:paddingLeft="15dp"
+            android:text="@string/apteka"
+            android:textSize="17sp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/localization_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onLocalizationButtonClick"
+        android:text="@string/localizate_it" />
+
+
+</LinearLayout>
