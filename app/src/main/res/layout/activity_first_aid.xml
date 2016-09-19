@@ -15,7 +15,6 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context=".FirstAidActivity">
 
-
         <com.bluejamesbond.text.DocumentView
             android:id="@+id/title_name"
             android:layout_width="wrap_content"
@@ -25,7 +24,6 @@
             android:text="łygygygygy"
             android:textSize="40sp"
             app:documentView_textSize="40sp" />
-
 
         <com.bluejamesbond.text.DocumentView
             android:id="@+id/title_description"
@@ -43,7 +41,6 @@
             android:layout_below="@+id/title_description"
             android:layout_centerHorizontal="true"
             android:src="@drawable/image1" />
-
 
     </RelativeLayout>
 </ScrollView>

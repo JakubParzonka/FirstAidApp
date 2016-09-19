@@ -4,12 +4,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.bluejamesbond.text.DocumentView;
 
 public class FirstAidActivity extends AppCompatActivity {
     int id;
+
 
     /*TODO
     1. MA WCZYTYWAĆ OPISY Z STRINGS.XML

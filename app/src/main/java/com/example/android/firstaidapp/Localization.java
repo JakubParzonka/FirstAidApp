@@ -23,7 +23,6 @@ public class Localization extends Activity {
     /**
      * TODO
      * 1. Jeśli wciśniemy jeden CheckBox, żaden inny nie może zostać wciśnięty!
-     *
      * @param savedInstanceState
      */
     @Override
